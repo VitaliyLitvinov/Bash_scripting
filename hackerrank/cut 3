@@ -1,0 +1,5 @@
+#!/bin/bash
+while read line; do
+echo "$line" | cut -c 2-7
+done
+#Display a range of characters starting at the  position of a string and ending at the  position (both positions included).

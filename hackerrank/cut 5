@@ -1,0 +1,5 @@
+#!/bin/bash
+while read line; do
+echo "$line" | cut -f 1-3
+done
+#Given a tab delimited file with several columns (tsv format) print the first three fields.
