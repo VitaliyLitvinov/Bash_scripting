@@ -1,0 +1,6 @@
+#!/bin/bash
+while read file; do
+    echo "${file}" | tr "()" "[]"
+done
+echo "${file}" | tr "()" "[]"
+# In a given fragment of text, replace all parentheses   with box brackets  .
