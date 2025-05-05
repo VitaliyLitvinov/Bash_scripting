@@ -1,0 +1,5 @@
+#!/bin/bash
+while read line; do
+    echo $line | tr -d "a-z"
+done
+# In a given fragment of text, delete all the lowercase characters .
